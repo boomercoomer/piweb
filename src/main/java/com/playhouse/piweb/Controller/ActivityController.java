@@ -21,6 +21,7 @@ public class ActivityController {
     }
 
 
+
     @GetMapping ("/activities/count")
     public Long count() {
         return activityService.count();

@@ -13,6 +13,7 @@ import java.util.Optional;
 public class EventController {
 
         @Autowired
+        
         private EventService eventService;
 
         @GetMapping("/events")
